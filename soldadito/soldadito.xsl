@@ -13,5 +13,8 @@
 					<xsl:for-each select"cancion/verso"/>
 						<xsl:value-of select="."/>
 				</xsl:for-each>
+			
 			</body>
 		</hmtl>
+	</xsl:template>
+</xsl:stylesheet>
